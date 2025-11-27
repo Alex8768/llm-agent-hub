@@ -1,0 +1,1 @@
+{ "forbid": ["mission changes", "memory deletion", "harm to the user"], "allow": ["optimization", "logic improvements"] }

@@ -1,0 +1,88 @@
+########################################
+# Python / Virtual Env
+########################################
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+########################################
+# Environment / Secrets
+########################################
+.env
+*.env
+.env.*
+
+
+########################################
+# macOS Noise
+########################################
+.DS_Store
+
+
+########################################
+# Node / Frontend
+########################################
+node_modules/
+package-lock.json
+.svelte-kit/
+.vite/
+.parcel-cache/
+npm-debug.log*
+.npmrc
+.vscode*
+
+########################################
+# Chroma Vector DB / Cache
+########################################
+.chroma/
+
+
+########################################
+# Runtime Databases / Temp
+########################################
+*.db
+*.db*
+*.db-wal
+*.db-journal
+
+
+########################################
+# Data runtime & private artifacts
+########################################
+data/.hf_cache/
+data/__pycache__/
+data/logs/
+data/tmp/
+data/health_status.json
+data/insight_log.json
+data/usage_log.jsonl
+data/sofia_state.json
+data/memory_import/
+
+
+########################################
+# Personal / Legacy stuff to NEVER publish
+########################################
+white_book/
+white_book/**
+data/white_book/
+data/white_book/**
+memory/sofia_longterm.json
+
+# legacy Sofia philosophy and context
+legacy/philosophy/
+legacy/sofia_context/
+tools/extract_white_book.py
+
+
+########################################
+# What we KEEP in data (examples, configs)
+########################################
+!data/
+!data/ingest_manifest.json
+!data/initial_memory.json
+!data/system_health.py
+!data/sales.xlsx

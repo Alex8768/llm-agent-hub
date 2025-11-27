@@ -1,0 +1,10 @@
+{
+  "name": "excel_intelligence",
+  "version": "1.0",
+  "description": "Reads Excel files and provides AI-powered analysis.",
+  "actions": [
+    "excel_list",
+    "excel_read",
+    "excel_analyze"
+  ]
+}

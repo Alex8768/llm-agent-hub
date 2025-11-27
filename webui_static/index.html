@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assistant WebUI (Local)</title>
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; connect-src http://127.0.0.1:8081; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <link rel="stylesheet" href="/static/styles.css" />
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;margin:24px;max-width:860px}
+    h1{margin:0 0 12px}
+    .row{display:flex;gap:8px;align-items:center;margin:8px 0}
+    textarea{width:100%;min-height:100px;padding:12px;border:1px solid #ddd;border-radius:12px;resize:vertical}
+    button{padding:10px 16px;border-radius:12px;border:none;background:#4b39ef;color:#fff;cursor:pointer}
+    button[disabled]{opacity:.6;cursor:default}
+    .chat{margin-top:16px;display:grid;gap:10px}
+    .msg{padding:10px 12px;border-radius:12px}
+    .user{background:#f2f2f6}
+    .assistant{background:#e9f7ee}
+    .muted{opacity:.7}
+    section{margin-top:32px}
+    input[type="text"]{flex:1;padding:10px;border:1px solid #ddd;border-radius:12px}
+    #beliefList{list-style:none;padding:0;margin:12px 0;display:grid;gap:6px}
+    #beliefList li{padding:8px 10px;border:1px solid #eee;border-radius:8px;background:#fafafa;font-size:0.95em}
+  </style>
+</head>
+<body>
+  <h1>Assistant · local interface</h1>
+  <div class="row">
+    <button id="pingBtn">Check core</button>
+    <div id="status" class="muted">—</div>
+  </div>
+  <textarea id="input" placeholder="Type a message…"></textarea>
+  <div class="row">
+    <button id="sendBtn" disabled>Send</button>
+    <button id="clearBtn" type="button">Clear</button>
+    <div id="progress" class="muted"></div>
+  </div>
+  <div id="chat" class="chat"></div>
+
+  <section>
+    <h2>Pulse</h2>
+    <div class="row">
+      <button id="pulseBtn" type="button">Refresh</button>
+      <div id="stateSummary" class="muted">—</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Learning</h2>
+    <textarea id="learnInput" placeholder="Add new facts, one per line"></textarea>
+    <div class="row">
+      <button id="learnBtn" type="button">Save</button>
+      <div id="learnStatus" class="muted"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Belief search</h2>
+    <div class="row">
+      <input id="beliefQuery" type="text" placeholder="Example: safety">
+      <button id="beliefSearchBtn" type="button">Find</button>
+    </div>
+    <ul id="beliefList"></ul>
+  </section>
+
+  <hr>
+  <div class="muted" id="footer">Assistant Local UI · build: <span id="build"></span></div>
+  <script defer src="/static/app.js"></script>
+</body>
+</html>

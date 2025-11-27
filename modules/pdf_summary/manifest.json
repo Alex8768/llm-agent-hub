@@ -1,0 +1,10 @@
+{
+  "name": "pdf_summary",
+  "version": "1.0",
+  "description": "Summarizes PDFs and extracts key insights.",
+  "actions": [
+    "pdf_list_docs",
+    "pdf_read",
+    "pdf_summarize"
+  ]
+}

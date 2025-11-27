@@ -1,0 +1,6 @@
+{
+  "guardian/meta_rules.json": "084aed274e83546bacbf6db003ff4491013d4c35db6b8f2ea00f51112a554198",
+  "main.py": "5d808d575550960b21758101f0f59e52b92ea8862fac67921b8ce36c2904a8bd",
+  "system_core_prompt.py": "b737772ba549d3779deb7dbdba323c595f74e9fcf8ad35a9e2e0a462b8e05b18",
+  "memory/memory_core.py": "5782d508a49d0914c2831eb3f509c91ba45b9f94526461ede89d0d9f9fed9775"
+}

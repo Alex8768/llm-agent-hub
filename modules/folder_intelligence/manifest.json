@@ -1,0 +1,10 @@
+{
+  "name": "folder_intelligence",
+  "version": "1.0",
+  "description": "Analyzes folder contents and produces AI-based insights.",
+  "actions": [
+    "folder_list",
+    "folder_stats",
+    "folder_analyze"
+  ]
+}

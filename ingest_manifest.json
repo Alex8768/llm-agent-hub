@@ -1,0 +1,58 @@
+{
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/Start Sofia_Bridge.txt": {
+    "fid": "d05e1e12a19c2b37",
+    "ts": "1762177538.080031"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/hodataistvo_peredacha.docx": {
+    "fid": "dd39107bef8737fa",
+    "ts": "1762177538.190101"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/Sofia_Bridge_Progress_Report_v0.4.docx": {
+    "fid": "70b703fc6539022c",
+    "ts": "1762177538.234192"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/Sofia_Bridge_Report_v1.0.docx": {
+    "fid": "8a60ec3566ebc358",
+    "ts": "1762177538.263981"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/Черновик README для первого демо FAQ-бот по PDF.pdf": {
+    "fid": "8ddb1477f9c0efd0",
+    "ts": "1762456580.719021"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/София Ревизия:Ход проекта.pdf": {
+    "fid": "e72fcb581e41f6eb",
+    "ts": "1762456581.882184"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/План LLM Engineering & AI Automation.pdf": {
+    "fid": "dd653d8632c27f2d",
+    "ts": "1762456582.0600069"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/white_book/Sofia_Core_White_Book_v2.pdf": {
+    "fid": "c1b7d5f2a4e3986d",
+    "ts": "1762904980.000000"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/philosophy/Sofia_White_Book.md": {
+    "fid": "f2d1c9b4e7a6053c",
+    "ts": "1762904980.000001"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/sofia_bridge/data/sofia_state.json": {
+    "fid": "4752209c007949fa",
+    "ts": "1763454777.414845"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/llm_agent_hub/data/Черновик README для первого демо FAQ-бот по PDF.pdf": {
+    "fid": "8ddb1477f9c0efd0",
+    "ts": "1763471883.931123"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/llm_agent_hub/data/Sofia_Bridge_Progress_Report_v0.4.docx": {
+    "fid": "70b703fc6539022c",
+    "ts": "1763471884.089082"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/llm_agent_hub/data/Sofia_Bridge_Report_v1.0.docx": {
+    "fid": "8a60ec3566ebc358",
+    "ts": "1763471884.126573"
+  },
+  "/Users/aleksandrladygin/Documents/LLM Engineering/llm_agent_hub/data/ingest_manifest.json": {
+    "fid": "b30f2d751496ee48",
+    "ts": "1763473727.122468"
+  }
+}
