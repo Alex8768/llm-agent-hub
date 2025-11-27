@@ -61,7 +61,7 @@ data/insight_log.json
 data/usage_log.jsonl
 data/sofia_state.json
 data/memory_import/
-
+data/identity.json
 
 ########################################
 # Personal / Legacy stuff to NEVER publish
@@ -86,3 +86,4 @@ tools/extract_white_book.py
 !data/initial_memory.json
 !data/system_health.py
 !data/sales.xlsx
+!.env.example
