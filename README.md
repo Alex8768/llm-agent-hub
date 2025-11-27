@@ -53,9 +53,9 @@ flowchart TD
     C --> F[RAG Engine<br/>Auto-ingest PDFs]
 
     C --> G[Final Result + Summary]
-- --
+```
 
-Features
+## Features
 
 🧠 Heavy Executor
 
